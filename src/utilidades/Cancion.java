@@ -31,7 +31,7 @@ public class Cancion {
     public void setArtista(String artista) {
         this.artista = artista;
     }
-
+ 
     @Override
     public String toString() {
         return titulo + " - " + artista;
