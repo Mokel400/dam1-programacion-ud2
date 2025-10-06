@@ -14,7 +14,7 @@ public class InstanciacionReferenciaYComparacion {
 
         // Tu código aquí ↓
         
-
+        System.out.println("EJERCICIO 1");
         Cancion c1 = new Cancion();
         Cancion c2 = new Cancion("I'm still standing","Elton Jhon");
 
@@ -30,6 +30,7 @@ public class InstanciacionReferenciaYComparacion {
 
         // Tu código aquí ↓
         
+        System.out.println("EJERCICIO 2");
         Cancion c3 = new Cancion();
         Cancion c4 = new Cancion();
 
@@ -45,6 +46,7 @@ public class InstanciacionReferenciaYComparacion {
         // Tu código aquí ↓
         
 
+        System.out.println("EJERCICIO 3");
         System.out.println(c3.equals(c4));        
 
 
@@ -59,6 +61,7 @@ public class InstanciacionReferenciaYComparacion {
         // Tu código aquí ↓
         
 
+        System.out.println("EJERCICIO 4");
         Pelicula p1 = new Pelicula ("Armaggedon", 1999);
         Pelicula p2 = new Pelicula ("Armaggedon", 1999);
 
@@ -78,6 +81,7 @@ public class InstanciacionReferenciaYComparacion {
         // Tu código aquí ↓
         
 
+        System.out.println("EJERCICIO 5");
         Cancion c5 = new Cancion("Come and get your love","Redbone");
         Cancion c6 = c5;
 
