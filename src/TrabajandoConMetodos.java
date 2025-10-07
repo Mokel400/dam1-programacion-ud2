@@ -12,6 +12,10 @@ public class TrabajandoConMetodos {
         // Tu código aquí ↓
 
 
+        System.out.println("EJERCICIO 1");
+        method.saludar();
+
+
         // ================================
         // EJERCICIO 2: Métodos con retorno
         // ================================
@@ -21,6 +25,10 @@ public class TrabajandoConMetodos {
         // Tu código aquí ↓
     
 
+        System.out.println("EJERCICIO 2");
+        int suma = method.sumar(5,3);
+        System.out.println(suma);
+        System.out.println(method.presentar("Lucía"));
 
         // ================================
         // EJERCICIO 3: Paso por valor (primitivos)
@@ -29,6 +37,12 @@ public class TrabajandoConMetodos {
         // 2. Llama a method.incrementar(n).
         // 3. Imprime n después de llamar al método.
         // Tu código aquí ↓
+
+        
+        System.out.println("EJERCICIO 3");
+        int n = 10;
+        method.incrementar(n);
+        System.out.println(n);
 
 
         // ================================
@@ -40,6 +54,14 @@ public class TrabajandoConMetodos {
         // 3. Imprime la canción después.
         // Tu código aquí ↓
 
+
+        System.out.println("EJERCICIO 4");
+        Cancion c1 = new Cancion ("Original","Desconocido");
+        c1.setTitutlo("Hola");        
+        c1.getArtista();
+        
+        
+        
     }
 }
 
