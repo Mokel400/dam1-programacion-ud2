@@ -28,7 +28,8 @@ public class TrabajandoConMetodos {
         System.out.println("EJERCICIO 2");
         int suma = method.sumar(5,3);
         System.out.println(suma);
-        System.out.println(method.presentar("Lucía"));
+        String nombre = method.presentar("Lucía");
+        System.out.println(nombre);
 
         // ================================
         // EJERCICIO 3: Paso por valor (primitivos)
